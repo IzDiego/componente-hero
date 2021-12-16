@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 18px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.445), rgb(0, 0, 0, 0.411)),
+    url("https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_MarioKart8Deluxe_image1600w.jpg")
+      no-repeat center / cover;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.container {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.container .info h1 {
+  position: relative;
+  font-size: 60px;
+  margin-bottom: 1rem;
+  font-family: "papyrus";
+  font-weight: bold;
+}
+.container .info h2 {
+  position: relative;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.container .info p {
+  position: relative;
+  font-size: 1.2rem;
+  max-width: 60%;
+}
+.container .info a {
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #2C5545;
+  border-radius: 4px;
+  font-size: 1.8rem;
+  padding: 0.5em 2em;
+  color: white;
+}
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 10px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+#ropa{
+  width:100%;
+  height:100vh;
+  background: linear-gradient(rgba(0,0,0,0.445),
+  rgb(0,0,0,0.411)),
+  url("https://www.playeraspersonalizadas.xyz/wp-content/uploads/2018/12/playeras-para-pareja-de-navidad.jpg")no-repeat center / cover ;
+  color:white;
 }

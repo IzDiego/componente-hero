@@ -1,25 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+  <section id="ropa">
+      <div className="container">
+        <div className="info">
+          <h1>playeras navideñas</h1>
+          <h2>Encuentra ropa y calzado para esta navidad.</h2>
+          <p>
+            El mejor regalo para la familia y los seres queridos.
+          </p>
+          <button>
+            <a href="https://www.youtube.com/watch?v=nM6y5V7oIuE">
+              Click al videoclip
+            </a>
+          </button>
+        </div>
+      </div>
+    </section>
   );
 }
 
