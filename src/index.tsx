@@ -1,12 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './Hero';
 import reportWebVitals from './reportWebVitals';
+
+interface Hero {
+  titulo: String;
+  subtitulo: String;
+  contenido: String;
+  textoboton: String;
+  linkboton: String;
+}
+
+const hero:Hero = {
+  titulo:"playeras navideñas",
+  subtitulo:"Encuentra ropa y calzado para esta navidad.",
+  contenido:"El mejor regalo para la familia y los seres queridos.",
+  textoboton:"Click al videoclip",
+  linkboton:"https://www.youtube.com/watch?v=nM6y5V7oIuE"
+};
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App {...hero}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
